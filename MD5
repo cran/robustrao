@@ -1,7 +1,7 @@
-f679688cfc25766fafdcd444a6508935 *DESCRIPTION
+884abf3ef276a7217cf7b02fad5290d0 *DESCRIPTION
 dc2cc02b24c6cb9c939aaac43390c2a4 *NAMESPACE
 354d78409c6eb51b927291514b711123 *R/bound_index_computations.R
-ef50e1d329539e790c141ddfd5b16474 *R/call_indices.R
+ca1b55076e13b3bea95d09d38770a7a3 *R/call_indices.R
 3c2098288e04a7157033123d920d0995 *R/dataset.R
 0bc3065c1e4a29eca6a2d226f72657f0 *R/discipline_pruning.R
 625aeb5bd3ff9dee1c44b5ef38f76af2 *R/rao_index.R
