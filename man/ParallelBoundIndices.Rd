@@ -57,6 +57,7 @@ The content of the log file is written during the execution of the function and 
 
 This function solves a computationally intensive optimization problem. In order to reduce the search space it is recommended to provide the function with the vector of permissible disciplines and redistribution limit.
 }
+
 \examples{
 #Load data
 data(pubdata1)
@@ -76,4 +77,3 @@ Calatrava Moreno, M. C., Auzinger, T. and Werthner, H. (2016) On the uncertainty
 
 Porter, A. and Rafols, I. (2009) Is science becoming more interdisciplinary? Measuring and mapping six research fields over time. Scientometrics, Vol. 81, No. 3 (719-745). DOI:10.1007/s11192-008-2197-2
 }
-

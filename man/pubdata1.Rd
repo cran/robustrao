@@ -2,10 +2,10 @@
 % Please edit documentation in R/dataset.R
 \docType{data}
 \name{pubdata1}
+\alias{pubdata1}
 \alias{pd1.count.matrix}
 \alias{pd1.similarity}
 \alias{pd1.uncat.refs}
-\alias{pubdata1}
 \title{pubdata1}
 \format{\describe{
  \item{\code{pd1.count.matrix}}{the count of referenced disciplines for each publication}
@@ -23,4 +23,3 @@ The dataset contains the following information: A matrix of counts of referenced
 Porter, A. and Rafols, I. (2009) Is science becoming more interdisciplinary? Measuring and mapping six research fields over time. Scientometrics, Vol. 81, No. 3 (719-745). DOI:10.1007/s11192-008-2197-2
 }
 \keyword{datasets}
-

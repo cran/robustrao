@@ -1,14 +1,12 @@
 citHeader("To cite robustrao in publications use:")
 
-citEntry(entry = "Unpublished",
+citEntry(entry = "Manual",
          title        = "robustrao: An Extended Rao-Stirling Diversity Index to Handle Missing Data",
          author       = personList(as.person("María del Carmen Calatrava Moreno"),
                                    as.person("Thomas Auzinger")),
          year         = "2016",
-         note = "Forthcoming",
 
          textVersion  =
            paste("Calatrava Moreno, M.C. and Thomas A. (2016).",
-                 "robustrao: An R package to calculate the Rao-Stirling diversity index and its extension to acknowledge missing data.",
-                 "Forthcoming.")
+                 "robustrao: An R package to calculate the Rao-Stirling diversity index and its extension to acknowledge missing data.")
 )

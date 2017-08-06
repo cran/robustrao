@@ -36,4 +36,3 @@ RaoStirling(pd1.count.matrix[,2], pd1.similarity)
 \references{
 Porter, A. and Rafols, I. (2009) Is science becoming more interdisciplinary? Measuring and mapping six research fields over time. Scientometrics, Vol. 81, No. 3 (719-745). DOI:10.1007/s11192-008-2197-2
 }
-

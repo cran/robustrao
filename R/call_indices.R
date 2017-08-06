@@ -121,7 +121,7 @@ ParallelBoundIndices <- function(bound,
                             .combine=c,
                             #.noexport=c("count.matrix", "similarity", "uncat.refs"),
                             #.verbose = TRUE,
-                            .packages=c("igraph","methods","gmp","quadprog","digest","iterpc")
+                            .packages=c("igraph","methods","gmp","quadprog","iterpc", "digest")
   ) %dopar% {
 
     cat(paste("Starting iteration ",i,"\n"), file="parallel-bounds-log.txt", append=TRUE)

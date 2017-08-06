@@ -44,6 +44,7 @@ When very dissimilar disciplines are referenced by the categorized references, a
 Such cases require longer computation times.
 The dataset \code{\link{pubdata2}} contains an example of a publication that requires intensive computation in order to calculate the uncertainty interval of the Rao-Stirling diversity index.
 }
+
 \examples{
 ##EXAMPLE 1
 #Load data
@@ -67,4 +68,3 @@ Calatrava Moreno, M. C., Auzinger, T. and Werthner, H. (2016) On the uncertainty
 
 Porter, A. and Rafols, I. (2009) Is science becoming more interdisciplinary? Measuring and mapping six research fields over time. Scientometrics, Vol. 81, No. 3 (719-745). DOI:10.1007/s11192-008-2197-2
 }
-
