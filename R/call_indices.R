@@ -105,8 +105,8 @@ ParallelBoundIndices <- function(bound,
 
   bound.indices <- c()
 
-  # Initialization of log file
-  cat(paste("Log thread processing of ",bound, "index","\n"), file="parallel-bounds-log.txt")
+  # Initialization of log file: The following line could uncommented to activate the log file of iterations if performing large computations
+  #cat(paste("Log thread processing of ",bound, "index","\n"), file="parallel-bounds-log.txt")
 
   # Obtain the number of papers for which the index will be calculated
   if (is.vector(count.matrix)) {
@@ -124,7 +124,8 @@ ParallelBoundIndices <- function(bound,
                             .packages=c("igraph","gmp","quadprog","iterpc")
   ) %dopar% {
 
-    cat(paste("Starting iteration ",i,"\n"), file="parallel-bounds-log.txt", append=TRUE)
+    # The following line could uncommented to activate the log file of iterations if performing large computations
+    #cat(paste("Starting iteration ",i,"\n"), file="parallel-bounds-log.txt", append=TRUE)
 
     # Obtain the count vector and number of uncategorized references for each paper
     if (is.vector(count.matrix)) {
