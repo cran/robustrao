@@ -1,11 +1,11 @@
 Package: robustrao
 Type: Package
 Title: An Extended Rao-Stirling Diversity Index to Handle Missing Data
-Version: 1.0-4
+Version: 1.0-5
 Date: 2020-01-22
-Author: María del Carmen Calatrava Moreno [aut, cre],
+Author: Maria del Carmen Calatrava Moreno [aut, cre],
 	Thomas Auzinger [aut]
-Maintainer: María del Carmen Calatrava Moreno
+Maintainer: Maria del Carmen Calatrava Moreno
  <mc.calatrava.moreno@gmail.com>
 Description: A collection of functions to compute the Rao-Stirling diversity index
 	(Porter and Rafols, 2009) <DOI:10.1007/s11192-008-2197-2> and its extension to
@@ -24,7 +24,7 @@ Description: A collection of functions to compute the Rao-Stirling diversity ind
 	Classification / ACM - 2012: Information systems ~ Similarity measures,
 	Theory of computation ~ Quadratic	programming, Applied computing ~ Digital
 	libraries and archives.
-Depends: R (>= 3.2.3)
+Depends: R (>= 3.2)
 Imports: doParallel (>= 1.0.10), gmp (>= 0.5-12), iterpc (>= 0.3.0),
         quadprog (>= 1.5-5), igraph (>= 1.0.1), foreach (>= 1.4.3)
 License: GPL-3
@@ -32,6 +32,6 @@ URL: https://gitlab.com/mc.calatrava.moreno/robustrao.git
 Encoding: UTF-8
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2020-01-22 12:52:27 UTC; Mamen
+Packaged: 2020-01-24 19:21:20 UTC; Mamen
 Repository: CRAN
-Date/Publication: 2020-01-22 13:40:03 UTC
+Date/Publication: 2020-01-24 21:50:08 UTC
